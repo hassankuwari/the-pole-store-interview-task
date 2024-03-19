@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- slider slick stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <!-- Slick theme CSS (optional) -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>The Pole Store</title>
+</head>
+
+<body>
+
+  <!-- web starts -->
+  <div class="web-wrapper">
+
+    <div class="container-fluid">
+
+      <!-- header starts -->
+      <header>
+        <!-- upper-header starts -->
+        <div class="upper-header">
+          <div class="container">
+
+            <div class="row">
+              <div class=" col-md-4 order-md-2">
+                <div class="main-logo">
+                  <a href="#" title="The Pole Store">
+                    <img src="./assets/images/header-logos/header-main-logo.png" alt="The Pole Store main logo"></a>
+                </div>
+              </div>
+              <div class=" col-md-4 order-md-1 position-relative">
+                <div class="contact-info">
+                  <ul class="d-flex">
+                    <li class="me-3"><span class="me-2"><img src="./assets/images/header-logos/call-logo-header.png"
+                          alt="telephone-logo"></span>
+                      <span><a href="tel:Call us! 08-654 74 90" title="Call us! 08-654 74 90">Call us! 08-654 74
+                          90</a></span>
+                    </li>
+                    <li><span class="me-2"><img src="./assets/images/header-logos/mail-logo-header.png"
+                          alt="email-logo"></span><span><a href="mailto:thepolestore.co.uk"
+                          title="thepolestore.co.uk">thepolestore.co.uk</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+
+
+              <div class=" col-md-4 order-md-3 position-relative">
+                <div class="fav-cart">
+                  <ul class="d-flex">
+                    <li class="me-4">
+                      <a href="#" title="favs">
+                        <img src="./assets/images/header-logos/fav-logo-header.png" alt="favourite-logo">
+                      </a>
+                    </li>
+                    <li class="me-4">
+                      <a href="#" title="user">
+                        <img src="./assets/images/header-logos/user-logo-header.png" alt="user-logo">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" title="cart">
+                        <div class="cart-logo-container" data-cartcount=0>
+                          <img src="./assets/images/header-logos/cart-logo-header.svg" alt="cart-logo">
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="hamburger-menu" id="hamburgerBtn">
+                <img src="./assets/images/responsive-nav/hamburger-menu.svg" alt="hamburger-menu-logo">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- upper-header ends -->
+
+
+        <!-- lower-header starts -->
+        <div class="container lower-header">
+          <!-- navbar starts -->
+          <div class="cutom-navbar">
+
+            <nav class="navbar">
+              <div class="nav-container d-flex">
+                <div class="left-links">
+                  <a href="#" class="active me-4">Home</a>
+
+                  <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-4" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Curtain poles
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                  <a href="#" class="me-4">Accessories</a>
+                  <a href="#" class="me-4">Curtain track</a>
+                </div>
+
+                <div class="right-search">
+                  <input type="text" placeholder="Search for curtain poles">
+                  <div class="search-icon-container">
+                    <img src="./assets/images/header-logos/search-icon-header.png" alt="search icon">
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+          <!-- navbar ends -->
+        </div>
+        <!-- lower-header end -->
+
+
+        <!-- responsive navbar starts -->
+        <div class="responsive-nav">
+
+
+          <div class="res-nav-list">
+            <ul>
+              <li class="cross-container">
+                <div class="cross" id="menuCloseBtn">
+                  <img src="./assets/images/responsive-nav/circle-xmark-solid.svg" alt="menu-close-icon">
+                </div>
+              </li>
+              <li>
+                <div class="right-search">
+                  <input type="text" placeholder="Search for curtain poles">
+                  <div class="search-icon-container">
+                    <img src="./assets/images/header-logos/search-icon-header.png" alt="search icon">
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="active me-4">Home</a>
+              </li>
+              <li>
+                <div class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle me-4" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Curtain poles
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="me-4">Accessories</a>
+              </li>
+              <li>
+                <a href="#" class="me-4">Curtain track</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- responsive navbar ends -->
+
+
+      </header>
+      <!-- header ends -->
+
+
+      <!-- main section starts -->
+      <main>
+
+        <!-- banner starts -->
+        <div class="banner">
+          <div class="banner-left">
+            <div class="banner-left-content">
+              <h1>
+                <div>High-Quality</div>
+                <div>Curtain poles</div>
+                <div>Just For You</div>
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+              <div class="shop-btn">
+                <button class="btn btn-lg ">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="banner-right">
+            <div class="banner-img-poles-mobile">
+              <img src="./assets/images/banner/display_var_poles.png" alt="banner-main-image">
+            </div>
+          </div>
+          <div class="banner-img-poles">
+            <img src="./assets/images/banner/display_var_poles.png" alt="banner-main-image">
+          </div>
+        </div>
+        <!-- banner ends -->
+
+        <!-- features starts -->
+        <div class="feature">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-6 col-lg-4  d-flex justify-content-center">
+                <div class="feature-delivery">
+                  <div class="delivery-logo">
+                    <img src="./assets/images/features/delievery-truck.png" alt="delievery-truck-logo">
+                  </div>
+                  <div class="delivery-text">
+                    <div>
+                      <h6>FREE UK Delivery on all orders</h6>
+                    </div>
+                    <div class="feature-gray-text">Few words about it</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="feature-discount">
+                  <div class="discount-logo">
+                    <img src="./assets/images/features/discount.png" alt="feature-discount-logo">
+                  </div>
+                  <div class="discount-text">
+                    <div>
+                      <h6>Upto 50% off</h6>
+                    </div>
+                    <div class="feature-gray-text">Few words about it</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                <div class="feature-guarantee">
+                  <div class="guarntee-logo">
+                    <img src="./assets/images/features/guarantee.png" alt="feature-guarantee-logo">
+                  </div>
+                  <div class="gurantee-text">
+                    <div>
+                      <h6>5 year guarntee</h6>
+                    </div>
+                    <div class="feature-gray-text">Few words about it</div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <!-- features ends -->
+
+
+        <!-- about-us starts -->
+        <div class="about-us">
+          <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, , quis nostrud exercitation ullamco. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, , quis nostrud exercitation ullamco...</p>
+          </div>
+        </div>
+        <!-- about-us ends -->
+
+
+        <!-- our range starts -->
+        <div class="our-range">
+          <h2>Our Range</h2>
+          <div class="container">
+            <!-- first row -->
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/wooden-curtain-poles.png" alt="Wooden Curtain Poles">
+                </div>
+                <div class="range-heading my-1">
+                  <div>
+                    <h5>Wooden Curtain</h5>
+                  </div>
+                  <div>
+                    <h5>Poles</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/metal-curtain-poles.png" alt="Metal Curtain Poles">
+                </div>
+                <div class="range-heading my-1">
+                  <div>
+                    <h5>Metal</h5>
+                  </div>
+                  <div>
+                    <h5>Curtain Poles</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/bay-window-curtain-poles.png" alt="Bay Window Curtain Poles">
+                </div>
+                <div class="range-heading my-1">
+                  <div>
+                    <h5>Bay Window</h5>
+                  </div>
+                  <div>
+                    <h5>Curtain Poles</h5>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-4 offset-lg-2 mt-lg-5">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/curtain-rails-tracks.png" alt="Curtain Rails & Tracks">
+                </div>
+                <div class="range-heading my-2">
+                  <div>
+                    <h5>Curtain Rails &</h5>
+                  </div>
+                  <div>
+                    <h5>Tracks</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 mt-lg-5">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/accessories.png" alt="Accessories">
+                </div>
+                <div class="range-heading my-2">
+                  <h5>Accessories</h5>
+                </div>
+              </div>
+            </div>
+
+            <!-- second row -->
+            <!-- <div class="row mt-4"> -->
+            <!-- <div class="col">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/curtain-rails-tracks.png" alt="Curtain Rails & Tracks">
+                </div>
+                <div class="range-heading my-2">
+                  <div>
+                    <h5>Curtain Rails &</h5>
+                  </div>
+                  <div>
+                    <h5>Tracks</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="range-img">
+                  <img src="./assets/images/ranges/accessories.png" alt="Accessories">
+                </div>
+                <div class="range-heading my-2">
+                  <h5>Accessories</h5>
+                </div>
+              </div> -->
+            <!-- </div> -->
+
+
+
+
+          </div>
+        </div>
+        <!-- our range ends -->
+
+
+        <!-- measuring starts -->
+        <div class="container">
+          <div class="measuring">
+            <span><img src="./assets/images/measuring/tape-measure 1 copy 2.png" alt="measuring-tape"></span>
+            <h5>Curtain pole & Rail Measuring Guide</h5>
+          </div>
+        </div>
+        <!-- measuring ends -->
+
+
+        <!-- selling products starts -->
+        <div class="container-sm">
+          <div class="products">
+
+            <div class="products-head">
+              <h4>Our Best Selling Products</h4>
+            </div>
+
+            <div class="products-slider">
+              <!-- <div class="slider">
+                <div><img src="./assets/images/ranges/accessories.png" alt="Slide 1"></div>
+                <div><img src="./assets/images/ranges/bay-window-curtain-poles.png" alt="Slide 2"></div>
+                <div><img src="./assets/images/ranges/curtain-rails-tracks.png" alt="Slide 3"></div>
+                <div><img src="./assets/images/ranges/accessories.png" alt="Slide 1"></div>
+                <div><img src="./assets/images/ranges/bay-window-curtain-poles.png" alt="Slide 2"></div>
+                <div><img src="./assets/images/ranges/curtain-rails-tracks.png" alt="Slide 3"></div>
+              </div> -->
+              <div class="product-banner">
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-1.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-3.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-1.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-3.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-1.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-img">
+                    <img src="./assets/images/products/product-3.png" alt="">
+                  </div>
+                  <div class="product-name">
+                    Name of product
+                  </div>
+                  <div class="product-price">
+                    £ 24.95
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="products-view-btn">
+              <button type="button" class="btn">View all</button>
+            </div>
+          </div>
+        </div>
+        <!-- selling products ends -->
+
+
+        <!-- client say starts -->
+        <div class="container">
+          <div class="clients-say">
+
+            <div class="client-head">
+              <h4>What Our Clients Say About Us</h4>
+            </div>
+
+            <div class="clients-container">
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Gemini</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Leo</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Leo</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Leo</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                  <span><img src="./assets/images/ratings/star.png" alt=""></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Hope</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+
+              <div class="clients">
+                <div class="client-name">
+                  <h4>Hope</h4>
+                </div>
+                <div class="client-ratings">
+                  Lead Designer <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                  <span><img src="./assets/images/ratings/star.png" alt="star-rating-symbol"></span>
+                </div>
+                <div class="client-msg mt-4">
+                  <div class="msg-head">
+                    <h4>It was a very good experience</h4>
+                  </div>
+                  <div class="msg-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus
+                    maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus
+                    venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in
+                    tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- client say ends -->
+
+      </main>
+      <!-- main section ends -->
+
+
+      <!-- footer starts -->
+      <footer>
+        <div class="container-fluid">
+
+          <div class="upper-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 col-lg-3 footer-logo-section">
+                  <div class="footer-logo">
+                    <img src="./assets/images/footer-images/footer-logo.svg" alt="the-pole-store-logo">
+                  </div>
+                  <div class="footer-msg">
+                    <p>Neque aliquet eu, felis gravida. Mauris tincidunt sit vehicula et rhoncus id. Enim vehicula
+                      fringilla
+                      fames quam orci. Sit et amet.</p>
+                  </div>
+                  <div class="footer-search">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Your email address"
+                        aria-label="Search">
+                      <span><img src="./assets/images/footer-images/msg-box-searchbar.png"
+                          alt="message-box-logo"></span>
+                      <button class="btn btn-primary btn-sm  my-sm-0" type="submit">Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-lg-3 d-flex justify-content-sm-center justify-content-start">
+                  <div>
+                    <h5 class="pb-3">Contact</h5>
+                    <ul>
+                      <li class="pb-4"><span class="me-2"><img src="./assets/images/footer-images/location-logo.png"
+                            alt="location-logo"></span>
+                        <span><a href="https://maps.app.goo.gl/8FBvJ83MWnnGaHE98" target="_blank"
+                            title="Box 5205, 10245 London"></a>
+                          Box 5205, 10245 London</span>
+                      </li>
+                      <li class="pb-4"><span class="me-2"><img src="./assets/images/footer-images/msgbox-contacts.png"
+                            alt="email-logo"></span><span><a href="mailto:thepolestore.co.uk"
+                            title="thepolestore.co.uk">thepolestore.co.uk</a></span>
+                      </li>
+                      <li><span class="me-2"><img src="./assets/images/footer-images/telephone-logo.png"
+                            alt="telephone-logo"></span>
+                        <span><a href="tel:08-654 74 90" title="08-654 74 90">08-654 74 90</a></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-lg-3 d-flex justify-content-sm-center justify-content-start">
+                  <div>
+                    <h5 class="pb-3">Pages</h5>
+                    <ul>
+                      <li class="pb-1"><a href="#" title="About">About</a></li>
+                      <li class="pb-1"><a href="#" title="Help">Help</a></li>
+                      <li><a href="#" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-lg-3 d-flex justify-content-sm-center justify-content-start">
+                  <div>
+                    <h5 class="pb-3">Products</h5>
+                    <ul>
+                      <li class="pb-2"><a href="#" title="Metal curtain Pole">Metal curtain Pole</a></li>
+                      <li class="pb-2"><a href="#" title="Wooden Curtain Pole">Wooden Curtain Pole</a></li>
+                      <li class="pb-2"><a href="#" title="Bay Window curtain Pole">Bay Window curtain Pole</a></li>
+                      <li class="pb-2"><a href="#" title="Curtain Rails & Tracks">Curtain Rails & Tracks</a></li>
+                      <li><a href="#" title="Accessories">Accessories</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lower-footer">
+            <div class="container">
+              <div class="copyright-part">
+                © Copyright 2022 The Pole Store. <span><a href="#" title="Privacy Policy">Privacy Policy</a></span> |
+                <span><a href="#" title="Terms and Conditions">Terms and Conditions</a></span> | <span><a href="#"
+                    title="Cookie Policy">Cookie Policy</a>
+                </span>
+              </div>
+              <div class="social-medias">
+                <span class="me-3"><a href="#" target="_blank" title="Facebook"><img
+                      src="./assets/images/social-media/fb.png" alt="facebook-logo"></a></span>
+                <span class="me-3"><a href="#" target="_blank" title="Instagram"><img
+                      src="./assets/images/social-media/insta.png" alt="instagram-logo"></a></span>
+                <span><a href="#" target="_blank" title="Twitter"><img src="./assets/images/social-media/twitter.png"
+                      alt="twitter-logo"></a></span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+
+  </div>
+  <!-- web ends -->
+
+
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Slick JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <!-- main js file -->
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
